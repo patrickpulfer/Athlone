@@ -1,0 +1,119 @@
+Abraham Simpson 0432518NY 580000 Research
+Agnes Skinner 3412263EW 30000 Sales
+Akira Kurosawa 8971563KY 3600 Production
+Alice Glick 3643172DP 400000 Research
+Apu Nahasapeemapetilon 3757184BT 28000 Sales
+Arnie Pye 0949624BY 1400000 Management
+Artie Ziff 6201302BL 3300 Production
+Baby Gerald 4674472UT 2500 Production
+Barney Gumble 8264044RW 4100000 Management
+Bart Simpson 6634051ZB 220000 Research
+Bernice Hibbert 3962710YD 820000 Research
+Bleeding Gums Murphy 5218603PE 3400000 Management
+Blue-Haired Lawyer 8727745RG 12000 Sales
+Booberella 3062354HU 62000 Sales
+Brandine Spuckler 8403566YR 9700 Production
+Bumblebee Man 0623048VM 38000 Sales
+Capital City Goofball 1947072JM 230000 Research
+Carl Carlson 4250085WV 1200 Production
+Chazz Busby 3170995ND 9000 Production
+Chief Clancy Wiggum 9082267QX 1000000 Research
+Cletus Spuckler 1480203MM 700000 Research
+Comic Book Guy 2681961EQ 7100000 Management
+Cookie Kwan 2630610HN 3500 Production
+Crazy Cat Lady 3341817CR 280000 Research
+Database 8236146JN 100000 Sales
+Dewey Largo 7678582JT 6100 Production
+Disco Stu 0898863GX 7400000 Management
+Dolph Starbeam 7861733XB 5900 Production
+Dr. Julius Hibbert 6645534WK 370000 Research
+Dr. Nick Riviera 9351128QY 220000 Research
+Drederick Tatum 3109954DO 6800 Production
+Duffman 5517373XD 34000 Sales
+Eddie 6837450MD 320000 Research
+Edna Krabappel 8476983SK 5300000 Management
+Elizabeth Hoover 9263689UL 5700 Production
+Fat Tony 3267447VH 7500000 Management
+Gil Gunderson 6204425OJ 3900 Production
+Gloria Jailbird 2066327BB 3600000 Management
+Groundskeeper Willie 4889008KF 570000 Research
+Hans Moleman 2545921GL 8200 Production
+Helen Lovejoy 0775738UF 4100 Production
+Herman Hermann 0046094XG 2900 Production
+Itchy & Scratchy 2465630LB 530000 Research
+Jacqueline Bouvier 9415566UP 1300000 Management
+Janey Powell 0335180PE 8400 Production
+Jasper Beardly 4092646DS 6400000 Management
+Jessica Lovejoy 3691489MU 5900 Production
+Jimbo Jones 9539802KE 9000 Production
+Johnny Tightlips 2367081BW 7400 Production
+Judge Roy Snyder 5691195DA 5400000 Management
+Julio 9402448GU 26000 Sales
+Kang & Kodos 3384828VG 780000 Research
+Kearney Zzyzwicz 7183803MT 5800000 Management
+Kent Brockman 8417068JE 6200 Production
+Kirk Van Houten 4793206FA 2300000 Management
+Krusty The Clown 5051619UB 19000 Sales
+Kumiko Albertson 2082530HR 7800 Production
+Legs 6711925KZ 45000 Sales
+Lenny Leonard 8060499IW 450000 Research
+Leprechaun 2894361DS 85000 Sales
+Lindsey Naegle 5149390FX 4100000 Management
+Ling Bouvier 1007824SC 5800 Production
+Lionel Hutz 2351833LB 370000 Research
+Lisa Simpson 5356067IV 1500000 Management
+Lou 0949516EN 2900 Production
+Louie 6255100OK 770000 Research
+Luann Van Houten 6982443UM 2500000 Management
+Luigi Risotto 7388425TS 92000 Sales
+Lunchlady Doris 5453314KQ 8000000 Management
+Maggie Simpson 6681250WE 25000 Sales
+Manjula Nahasapeemapetilon 6355907TN 1800000 Management
+Marge Simpson 3317829MA 470000 Research
+Martin Prince 9992271GI 1700 Production
+Marvin Monroe 5423237WJ 9900 Production
+Maude Flanders 7210727AN 7000000 Management
+Mayor Joe Quimby 8350296SO 370000 Research
+Milhouse Van Houten 1417793DF 50000 Sales
+Miss Springfield 8557661AY 570000 Research
+Moe Szyslak 7277118ID 830000 Research
+Mona Simpson 5065454SI 990000 Research
+Mr. Burns 5814303BV 89000 Sales
+Mr. Teeny 5967337FY 160000 Research
+Mrs. Muntz 7410137KE 55000 Sales
+Mrs. Vanderbilt 1704853YU 950000 Research
+Ned Flanders 5196615JT 93000 Sales
+Nelson Muntz 9482670MD 1200 Production
+Old Jewish Man 8787142RB 9500000 Management
+Otto Mann 8352715AL 5100000 Management
+Patty Bouvier 0608486DU 3200000 Management
+Princess Kashmir 1643093ZU 4300000 Management
+Professor Jonathan Frink 7793093AX 660000 Research
+Rabbi Hyman Krustofsky 5953890FY 39000 Sales
+Rainier Wolfcastle 1954925SA 6300000 Management
+Ralph Wiggum 3388247HI 820000 Research
+Reverend Timothy Lovejoy 3855845QD 2900000 Management
+Rod Flanders 4269524UU 5000000 Management
+Roger Meyers Jr 4886544QJ 20000 Sales
+Ruth Powers 6217564RA 8500000 Management
+Santa's Little Helper 6984179KB 220000 Research
+Sarah Wiggum 6724577HC 88000 Sales
+Sea Captain 2403359UY 14000 Sales
+Selma Bouvier 9057336UH 990000 Research
+Seymour Skinner 6112115DY 83000 Sales
+Shauna Chalmers 5078614LJ 4800000 Management
+Sherri & Terri 0008302UL 13000 Sales
+Sideshow Bob 9788830GF 40000 Sales
+Sideshow Mel 9700578QO 9000000 Management
+Snake Jailbird 4384789BO 31000 Sales
+Snowball II/V 2025137KY 33000 Sales
+Squeaky-Voiced Teen 2201786PF 1200000 Management
+Superintendent Gary Chalmers 0119732EY 2500000 Management
+Surly Duff 0589112CB 8000 Production
+The Rich Texan 0308303QA 46000 Sales
+The Yes Guy 6155225HN 73000 Sales
+Todd Flanders 7253402FJ 4200000 Management
+Troy McClure 3608983BU 60000 Sales
+Waylon Smithers 0221572IQ 820000 Research
+Wise Guy 9928908IY 1400000 Management
+Üter Zörker 6601839PU 600000 Research
