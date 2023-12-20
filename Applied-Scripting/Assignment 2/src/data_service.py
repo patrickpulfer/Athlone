@@ -1,4 +1,14 @@
+import sys
+
 def csv_to_dictionary(filename):
+    """Function to import data from a CSV file and process it for consumption readiness
+
+    Args:
+        filename (string): Name of the File
+
+    Returns:
+        _type_: Dictionary with the data from the CSV file
+    """
 
     headers = []
     year_of_Period = []
@@ -55,6 +65,14 @@ def csv_to_dictionary(filename):
 
 
 def combine_renewable_vs_nonrenewable_sources(dictionary):
+    """Function to combine renewable and non-renewable energy sources
+
+    Args:
+        dictionary (dictionary): Dictionary from the csv_to_dictionary function
+
+    Returns:
+        dictionary: Renewables vs Non-reneables data
+    """
     
     renewable = []
     nonrenewable = []
@@ -86,6 +104,14 @@ def combine_renewable_vs_nonrenewable_sources(dictionary):
 
 
 def combine_sources_by_year(dictionary):
+    """Functions to combine monthly energy sources into yearly
+
+    Args:
+        dictionary (dictionary): Dictionary from the csv_to_dictionary function
+
+    Returns:
+        dictionary: Yearly energy sources dictionary
+    """
     list_of_years = dictionary['Year of Period']
     year_of_Period = []
     coal = []

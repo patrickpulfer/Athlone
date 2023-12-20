@@ -1,5 +1,5 @@
 import sys
-sys.path.insert(0,'src') # Necessary to include our src folder. Else import won't recognize the init files. 
+sys.path.insert(0,'src') # Necessary to include our src folder. Else import won't recognize the init files in our subdirectory. 
 
 from src import menu, basic_analysis, data_service
 
@@ -8,11 +8,9 @@ from src import menu, basic_analysis, data_service
 """
 
 
-if __name__ == '__main__':
-    """The Start of the Program
+def main():
+    """ The program's entry point
     """
-    monthly_Electricity_Data_Ireland_in_GWh = {}
-    monthly_Renewables_vs_Nonrenewable_in_Gwh = {}
 
     data_source_file_name = 'Monthly_Electricity_Data_Ireland.csv'
 
@@ -23,3 +21,6 @@ if __name__ == '__main__':
 
     menu.main_menu(monthly_Electricity_Data_Ireland_in_GWh, monthly_Renewable_vs_Nonrenewable_in_Gwh, combine_sources_by_year)
 
+
+if __name__ == '__main__':
+    main()

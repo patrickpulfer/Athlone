@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module src.basic_analysis</title>
+<link rel="stylesheet" type="text/css" href="pydoc-theme.css">
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title"><a href="src.html" class="white">src</a>.basic_analysis</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:/home/patrick/Projects/Athlone/Applied-Scripting/Assignment%202/src/basic_analysis.py">/home/patrick/Projects/Athlone/Applied-Scripting/Assignment 2/src/basic_analysis.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-getAlternative_Pearson_Mode_Skewness"><strong>getAlternative_Pearson_Mode_Skewness</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;Pearson&nbsp;Alternative&nbsp;Mode&nbsp;(or&nbsp;second&nbsp;skewness).<br>
+&nbsp;<br>
+See&nbsp;<a href="https://en.wikipedia.org/wiki/Skewness#Pearson's_second_skewness_coefficient_(median_skewness">https://en.wikipedia.org/wiki/Skewness#Pearson's_second_skewness_coefficient_(median_skewness</a>)<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;The&nbsp;Skewness&nbsp;of&nbsp;the&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getCorrelationOfRenewablesVsNonRenewables"><strong>getCorrelationOfRenewablesVsNonRenewables</strong></a>(list1, list2)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;Correlation&nbsp;Coefficient&nbsp;between&nbsp;renewable&nbsp;and&nbsp;non-renewable&nbsp;list&nbsp;sources,&nbsp;<br>
+by&nbsp;first&nbsp;calculating&nbsp;the&nbsp;means&nbsp;of&nbsp;both&nbsp;lists,&nbsp;<br>
+then&nbsp;using&nbsp;the&nbsp;Pearson&nbsp;correlation&nbsp;formulate&nbsp;to&nbsp;compute&nbsp;the&nbsp;correlation.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list1&nbsp;(list):&nbsp;List&nbsp;data&nbsp;from&nbsp;Renewable&nbsp;Sources<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list2&nbsp;(list):&nbsp;List&nbsp;data&nbsp;from&nbsp;Non-renewable&nbsp;Sources<br>
+&nbsp;<br>
+Raises:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ValueError:&nbsp;Check&nbsp;to&nbsp;ensure&nbsp;both&nbsp;lists&nbsp;have&nbsp;the&nbsp;same&nbsp;length<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;Correlation&nbsp;Coefficient&nbsp;between&nbsp;renewable&nbsp;and&nbsp;non-renewable</span></dd></dl>
+ <dl><dt><a name="-getInterQuartileRange"><strong>getInterQuartileRange</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;Interquartile&nbsp;Range&nbsp;(IQR)&nbsp;of&nbsp;a&nbsp;list,&nbsp;by&nbsp;performing&nbsp;the&nbsp;following&nbsp;steps:<br>
+1.&nbsp;Sorting&nbsp;the&nbsp;list&nbsp;in&nbsp;ascending&nbsp;order<br>
+2.&nbsp;Calculating&nbsp;the&nbsp;first&nbsp;and&nbsp;third&nbsp;quartile<br>
+3.&nbsp;Subtracting&nbsp;the&nbsp;first&nbsp;from&nbsp;third&nbsp;quartile<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;The&nbsp;Interquartile&nbsp;Range&nbsp;(IQR&nbsp;of&nbsp;the&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getMaximum"><strong>getMaximum</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;maximum&nbsp;value&nbsp;present&nbsp;in&nbsp;the&nbsp;list<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int:&nbsp;Maximum&nbsp;value&nbsp;of&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getMean"><strong>getMean</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;mean&nbsp;of&nbsp;the&nbsp;data&nbsp;provided&nbsp;in&nbsp;the&nbsp;list<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;Mean&nbsp;of&nbsp;the&nbsp;values</span></dd></dl>
+ <dl><dt><a name="-getMedian"><strong>getMedian</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;medium&nbsp;value&nbsp;of&nbsp;the&nbsp;list&nbsp;by&nbsp;sorting&nbsp;the&nbsp;list&nbsp;and&nbsp;finding&nbsp;the&nbsp;middle&nbsp;value<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int:&nbsp;Median&nbsp;value&nbsp;of&nbsp;the&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getMinimum"><strong>getMinimum</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;minimum&nbsp;value&nbsp;present&nbsp;in&nbsp;the&nbsp;list<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int:&nbsp;Minimum&nbsp;value&nbsp;of&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getMode"><strong>getMode</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;mode&nbsp;of&nbsp;a&nbsp;list&nbsp;by&nbsp;using&nbsp;a&nbsp;dictionary&nbsp;to&nbsp;count&nbsp;the&nbsp;frequency&nbsp;of&nbsp;each&nbsp;element&nbsp;in&nbsp;the&nbsp;list&nbsp;and&nbsp;then&nbsp;finding&nbsp;the&nbsp;element(s)&nbsp;with&nbsp;the&nbsp;highest&nbsp;frequency.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list:&nbsp;The&nbsp;mode&nbsp;of&nbsp;the&nbsp;data&nbsp;(can&nbsp;be&nbsp;single&nbsp;of&nbsp;multiple&nbsp;values&nbsp;in&nbsp;the&nbsp;list)</span></dd></dl>
+ <dl><dt><a name="-getNumberOfValues"><strong>getNumberOfValues</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;number&nbsp;of&nbsp;values&nbsp;in&nbsp;the&nbsp;list<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int:&nbsp;Number&nbsp;of&nbsp;Values</span></dd></dl>
+ <dl><dt><a name="-getPearsonSkewness"><strong>getPearsonSkewness</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;Pearson&nbsp;Mode&nbsp;Skewness.<br>
+&nbsp;<br>
+See&nbsp;<a href="https://en.wikipedia.org/wiki/Skewness#Pearson's_first_skewness_coefficient_(mode_skewness">https://en.wikipedia.org/wiki/Skewness#Pearson's_first_skewness_coefficient_(mode_skewness</a>)<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;The&nbsp;Skewness&nbsp;of&nbsp;the&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getRange"><strong>getRange</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;range&nbsp;of&nbsp;a&nbsp;list&nbsp;subtracting&nbsp;the&nbsp;minimum&nbsp;from&nbsp;the&nbsp;maximum&nbsp;value.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int:&nbsp;Range&nbsp;of&nbsp;the&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getStandardDeviation"><strong>getStandardDeviation</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;Standard&nbsp;Deviation&nbsp;of&nbsp;a&nbsp;list&nbsp;by&nbsp;performing&nbsp;the&nbsp;following&nbsp;steps:<br>
+1.&nbsp;Calculating&nbsp;the&nbsp;mean&nbsp;value<br>
+2.&nbsp;Calculating&nbsp;the&nbsp;squared&nbsp;difference&nbsp;between&nbsp;each&nbsp;element&nbsp;and&nbsp;the&nbsp;mean<br>
+3.&nbsp;Calculating&nbsp;the&nbsp;variance&nbsp;as&nbsp;the&nbsp;average&nbsp;of&nbsp;the&nbsp;squared&nbsp;differences<br>
+4.&nbsp;Finally,&nbsp;calculating&nbsp;the&nbsp;standard&nbsp;deviation&nbsp;as&nbsp;the&nbsp;square&nbsp;root&nbsp;of&nbsp;the&nbsp;variance<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;float:&nbsp;The&nbsp;Standard&nbsp;Deviation&nbsp;of&nbsp;a&nbsp;list</span></dd></dl>
+ <dl><dt><a name="-getTotal"><strong>getTotal</strong></a>(list)</dt><dd><span class="code">Calculates&nbsp;the&nbsp;sum&nbsp;of&nbsp;all&nbsp;data&nbsp;in&nbsp;the&nbsp;list<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;list&nbsp;(list):&nbsp;The&nbsp;list&nbsp;of&nbsp;the&nbsp;data<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;int:&nbsp;Total&nbsp;of&nbsp;values</span></dd></dl>
+</td></tr></table>
+</body></html>

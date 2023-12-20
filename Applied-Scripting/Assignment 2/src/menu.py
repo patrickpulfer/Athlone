@@ -3,6 +3,13 @@ import basic_analysis, visualisations_analysis, category_analysis, category_visu
 
 
 def main_menu(monthly_Electricity_Data_Ireland_in_GWh, monthly_Renewables_vs_Nonrenewable_in_Gwh, combine_sources_by_year):
+    """Main menu
+
+    Args:
+        monthly_Electricity_Data_Ireland_in_GWh (dictionary): Electricity Source data of Ireland in GWh
+        monthly_Renewables_vs_Nonrenewable_in_Gwh (dictionary): Renewable vs Non-renewable Electricity source data of Ireland in GWh
+        combine_sources_by_year (dictionary): Electricity Data of Ireland in GWh
+    """
     while True:
         os.system('clear')
         print("")
@@ -20,15 +27,15 @@ def main_menu(monthly_Electricity_Data_Ireland_in_GWh, monthly_Renewables_vs_Non
         print("Select an Option")
         print("")
         print("1. Analysis of renewable vs. non-renewable energy sources")
-        print("2. Visualitation analysis of renewable vs. non-renewable energy sources")
+        print("2. Visualization analysis of renewable vs. non-renewable energy sources")
         print("3. Analysis by Category")
-        print("3. Visualitation analysis by Category")
+        print("4. Visualization analysis by Category")
         print("Q. Quit")
         print("---------------------------------------------------------------")
         choice = input("Please make a choice: >> ")
         match choice:
             case "q":
-                break;
+                break
             case "1":
                 submenu_Basic_Analysis(monthly_Renewables_vs_Nonrenewable_in_Gwh)
             case "2":
@@ -39,7 +46,12 @@ def main_menu(monthly_Electricity_Data_Ireland_in_GWh, monthly_Renewables_vs_Non
                 submenu_Visualisation_by_Category(combine_sources_by_year)
 
 
-def submenu_Basic_Analysis(dictionary):  
+def submenu_Basic_Analysis(dictionary):
+    """Sub-Menu for Basic Analysis choice
+
+    Args:
+        dictionary (dictionary): Dictionary of the electricity sources data
+    """
     while True:
         print("")
         print("")
@@ -130,7 +142,12 @@ def submenu_Basic_Analysis(dictionary):
                 break
 
 
-def submenu_Visualisation_Analysis(dictionary):  
+def submenu_Visualisation_Analysis(dictionary):
+    """Sub-Menu for Visualization Analysis choice
+
+    Args:
+        dictionary (_type_): Dictionary of the electricity sources data
+    """
     while True:
         print("")
         print("")
@@ -152,6 +169,11 @@ def submenu_Visualisation_Analysis(dictionary):
 
 
 def submenu_Analyse_by_Category(dictionary):
+    """Sub-Menu for Category Analysis choice
+
+    Args:
+        dictionary (_type_): Dictionary of the electricity sources data
+    """
     while True:
         print("")
         print("")
@@ -184,6 +206,11 @@ def submenu_Analyse_by_Category(dictionary):
 
 
 def submenu_Visualisation_by_Category(dictionary):
+    """Sub-Menu for Visualization by Category choice
+
+    Args:
+        dictionary (_type_): Dictionary of the electricity sources data
+    """
     while True:
         print("")
         print("")

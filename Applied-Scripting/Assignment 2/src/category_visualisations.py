@@ -2,6 +2,11 @@ import matplotlib.pyplot as plt
 
 
 def generatePieChartByCategory(dictionary):
+    """Function to generate a Pie Chart with Matplotlib
+
+    Args:
+        dictionary (dictionary): Dictionary generated from the csv file
+    """
     labels = []
     values = []
     
@@ -19,6 +24,11 @@ def generatePieChartByCategory(dictionary):
 
 
 def generateBarChartByCategory(dictionary):
+    """Function to generate a Bar Chart with Matplotlib
+
+    Args:
+        dictionary (dictionary): Dictionary generated from the csv file
+    """
     labels = []
     values = []
 
@@ -36,6 +46,11 @@ def generateBarChartByCategory(dictionary):
 
 
 def generateBoxPlotsByCategory(dictionary):
+    """Function to generate a Box Plot Chart with Matplotlib
+
+    Args:
+        dictionary (dictionary): Dictionary generated from the csv file
+    """
     labels = []
     values = []
     

@@ -94,6 +94,14 @@ def getHighestTotalSubCategory(dictionary):
 
 
 def getLowestTotalSubCategory(dictionary):
+    """Calculates the total of each subcategory and returns the lowest value and its key name.
+
+    Args:
+        dictionary (dictionary): Dictionary generated from the csv file
+
+    Returns:
+        list: List of lowest total sub-category name and its value
+    """
     total_subcategories = {}
     lowestTotalKey = None
     lowestTotalValue = getHighestTotalSubCategory(dictionary)[1]
