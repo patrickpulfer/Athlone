@@ -80,8 +80,6 @@ def getHighestTotalSubCategory(dictionary):
     for key, value in dictionary.items():
         total_subcategories.update({ key : sum(value) })
 
-    print(total_subcategories)
-
     for key, value in total_subcategories.items():
         if key != 'Year of Period':
             max_total_value_in_list = value
@@ -108,8 +106,6 @@ def getLowestTotalSubCategory(dictionary):
 
     for key, value in dictionary.items():
         total_subcategories.update({ key : sum(value) })
-
-    print(total_subcategories)
 
     for key, value in total_subcategories.items():
         if key != 'Year of Period':

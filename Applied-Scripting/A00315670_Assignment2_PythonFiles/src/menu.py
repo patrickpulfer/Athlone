@@ -102,7 +102,7 @@ def submenu_Basic_Analysis(dictionary):
                 result = basic_analysis.getMaximum(dictionary['Renewable'])
                 print(f"\n  Maximum GWh of Renewables: {result}")
                 result = basic_analysis.getMinimum(dictionary['Renewable'])
-                print(f"  Maximum GWh of Renewable: {result}")
+                print(f"  Minimum GWh of Renewable: {result}")
                 result = basic_analysis.getMaximum(dictionary['Non-renewable'])
                 print(f"  Maximum GWh of Non-renewable: {result}")
                 result = basic_analysis.getMinimum(dictionary['Non-renewable'])
@@ -172,12 +172,12 @@ def submenu_Analyse_by_Category(dictionary):
     """Sub-Menu for Category Analysis choice
 
     Args:
-        dictionary (_type_): Dictionary of the electricity sources data
+        dictionary (dictionary): Dictionary of the electricity sources data
     """
     while True:
         print("")
         print("")
-        print("1. Calculate the number of distinc subcategories")
+        print("1. Calculate the number of distinct subcategories")
         print("2. Calculate the highest value in the dataset ")
         print("3. Calculate the lowest value in the dataset")
         print("4. Calculate the highest total value in the dataset")
@@ -203,6 +203,18 @@ def submenu_Analyse_by_Category(dictionary):
             case "5":
                 result_list = category_analysis.getLowestTotalSubCategory(dictionary)
                 print(f"\n  Lowest total value is {result_list[1]} within the sub-category '{result_list[0]}'")
+            case "d":
+                result = category_analysis.getDistincSubCategories(dictionary)
+                print(f"\n  Number of sub-categories in dataset: {result}")
+                result_list = category_analysis.getHighestSubCategory(dictionary)
+                print(f"\n  Highest value is {result_list[1]} within the sub-category '{result_list[0]}'")
+                result_list = category_analysis.getLowestSubCategory(dictionary)
+                print(f"\n  Lowest value is {result_list[1]} within the sub-category '{result_list[0]}'")
+                result_list = category_analysis.getHighestTotalSubCategory(dictionary)
+                print(f"\n  Highest total value is {result_list[1]} within the sub-category '{result_list[0]}'")
+                result_list = category_analysis.getLowestTotalSubCategory(dictionary)
+                print(f"\n  Lowest total value is {result_list[1]} within the sub-category '{result_list[0]}'")
+
 
 
 def submenu_Visualisation_by_Category(dictionary):
