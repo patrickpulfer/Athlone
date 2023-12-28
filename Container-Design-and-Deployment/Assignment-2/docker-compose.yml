@@ -1,0 +1,39 @@
+version: '3.8'
+name: assignment-2
+
+
+services:
+
+  web:
+    container_name: web-application
+
+    build: ./app
+    deploy:
+      replicas: 1
+    command: sh -c "cd app && sleep 10s && uvicorn main:app --reload --port=8080 --host=0.0.0.0"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    depends_on:
+      - database
+    links:
+      - database
+    ports:
+      - 8080:8080
+
+
+  database:
+    container_name: database
+    image: mysql
+    restart: always
+
+    build: ./mysql/
+    deploy:
+      replicas: 1
+    environment:
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'
