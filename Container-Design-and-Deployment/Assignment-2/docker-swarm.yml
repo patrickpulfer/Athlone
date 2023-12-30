@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  web:
+    image: ppulfer/assignment2-web
+    restart: always
+    build: ./app
+    deploy:
+      replicas: 1
+    command: 
+      - /bin/sh
+      - -c
+      - |
+        pip install --upgrade pip
+        RUN pip install -r requirements.txt
+        cd app 
+        sleep 10s 
+        uvicorn main:app --reload --port=8080 --host=0.0.0.0
+    environment:
+      MYSQL_HOST: 'localhost'
+      DB_DATABASE: 'users'
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    depends_on:
+      - database
+    links:
+      - database
+    ports:
+      - 8080:8080
+
+
+  database:
+    image: mysql
+    restart: always
+    build: ./mysql
+    deploy:
+      replicas: 1
+    environment:
+      MYSQL_ROOT_HOST: "%"
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3306:3306'

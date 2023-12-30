@@ -28,7 +28,7 @@ services:
     image: mysql
     restart: always
 
-    build: ./mysql/
+    build: ./mysql
     deploy:
       replicas: 1
     environment:
